@@ -1,7 +1,7 @@
 # Examples for Numerical Differential Equation Solving
 Use numerical methods to solve ordinary differential equations.
 ## Lotka-Volterra model
-<img align="right" src="https://user-images.githubusercontent.com/31299606/59965938-ddf09f80-954f-11e9-9086-2060327ba72e.png" width=50%>
+<img align="right" src="./population.png" width=50%>
 The model can be described by<br><br>
 
 du/dt = au - bu*v<br>
