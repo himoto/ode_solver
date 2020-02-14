@@ -23,6 +23,7 @@ with the following notations:
 - Julia
     - [Sundials.jl](https://github.com/JuliaDiffEq/Sundials.jl)
     - [ODE.jl](https://github.com/JuliaDiffEq/ODE.jl)
+    - [SciPyDiffEq.jl](https://github.com/JuliaDiffEq/SciPyDiffEq.jl)
 - MATLAB
     - [ode45](https://jp.mathworks.com/help/matlab/ref/ode45.html?lang=en)
 
