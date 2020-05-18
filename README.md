@@ -4,8 +4,8 @@ Use numerical methods to solve ordinary differential equations.
 <img align="right" src="./population.png" width=50%>
 The model can be described by<br><br>
 
-du/dt = au - bu*v<br>
-dv/dt = -cv + dbu*v<br>
+d*u*/dt = a*u* - b*u*_v_<br>
+d*v*/dt = -c*v* + db*u*_v_<br>
 <br>
 with the following notations:
 - u: number of preys (for example, rabbits)
