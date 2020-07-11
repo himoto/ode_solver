@@ -1,7 +1,4 @@
 function dydt = diffeq(t,y)
-
-    global rabbit;
-    global fox;
     
     a = 1.0;
     b = 0.1;
@@ -10,8 +7,8 @@ function dydt = diffeq(t,y)
 
     dydt = zeros(2,1);
 
-    dydt(rabbit) = a*y(rabbit) - b*y(rabbit)*y(fox);
-    dydt(fox) = -c*y(fox) + d*b*y(rabbit)*y(fox);
+    dydt(1) = a*y(1) - b*y(1)*y(2);
+    dydt(2) = -c*y(2) + d*b*y(1)*y(2);
     
 end
 
